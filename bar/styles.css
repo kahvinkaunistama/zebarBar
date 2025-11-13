@@ -1,8 +1,8 @@
 @import "https://www.nerdfonts.com/assets/css/webfont.css";
 
 body {
-  color: rgb(20, 20, 21); /* Softer, natural green-grey for main text */
-  font-family: "Fira Code Nerd Font", "ui-monospace", monospace; /* A more refined monospace font if available */
+  color: rgb(20, 20, 21); 
+  font-family: "Inconsolata Nerd Font", "ui-monospace", monospace; 
   font-size: 13px;
   overflow: hidden;
 }
@@ -15,7 +15,7 @@ body,
 }
 
 #root {
-  background: rgba(20,20,21); /* Deeper, more earthy transparent charcoal */
+  background: rgba(20,20,21);
   height: 100%;
   display: flex;
   justify-content: space-between;
@@ -53,7 +53,7 @@ body,
 
 .workspace {
   background: none;
-  color: rgb(200, 220, 200, 0.7); /* Softer inactive color */
+  color: rgb(200, 220, 200, 0.7);
   border: none;
   cursor: pointer;
   height: 100%;
@@ -69,18 +69,17 @@ body,
 
 
 .workspace.focused {
-  background: rgb(79, 96, 121); /* More subtle focus background */
+  background: rgb(144, 144, 172);
 }
 
 .workspace:hover {
-  background: rgb(79, 96, 121); /* More subtle focus background */
+  background: rgb(144, 144, 172);
 }
 
 
 .aikabox {
   height: 100%;
   min-width: 120px;
-  /* background: rgba(200, 220, 200, 0.08); */
   background: none;
   display: flex;
   align-items: center;
@@ -89,30 +88,28 @@ body,
   letter-spacing: 0px;
   padding: 0;
   margin-right: 0;
-  /* border-left: 1px solid rgba(200, 220, 200, 0.1); /* Subtle separator */ */
 }
 
 .aika {
   padding: 0 10px;
-  color: rgb(200, 220, 200); /* Consistent color */
+  color: rgb(200, 220, 200); 
 }
 
 .zen-symbol {
   position: absolute;
   left: 50%;
   top: 50%;
-  font-size: 50px;
-  color: rgba(255, 255, 255, 0.03);
+  font-size: 40px;
+  color: rgba(255, 255, 255, 0.1);
   transform: translate(-50%, -50%);
   pointer-events: none;
-  font-family: "Noto Serif JP", serif; /* A more traditional Japanese serif font */
+  font-family: "Inconsolata Nerd Font";
 
 }
 
 .battery {
   position: relative;
   height: 100%;
-  /* background: rgba(200, 220, 200, 0.08); */
   background: none;
   display: flex;
   align-items: center;
@@ -120,7 +117,7 @@ body,
   font-weight: 300;
   letter-spacing: 0px;
   margin-right: 0;
-  color: rgb(200, 220, 200); /* Consistent color */
+  color: rgb(200, 220, 200); 
 }
 
 .battery .charging-icon {
@@ -128,7 +125,7 @@ body,
   font-size: 8px;
   top: 3px;
   left: -8px;
-  color: rgba(100, 200, 100, 0.3); /* Subtle green for charging */
+  color: rgba(100, 200, 100, 0.3); 
 }
 
 .cpu,
